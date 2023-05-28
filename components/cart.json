@@ -1,0 +1,22 @@
+[
+    {
+     "id": 1,
+     "name": "Silver",
+     "img": "color-1.jpg"
+    },
+    {
+     "id": 2,
+     "name": "Deep Purple",
+     "img": "color-2.jpg"
+    },
+    {
+      "id":3,
+     "name": "Gold",
+     "img": "color-3.jpg"
+    },
+    {
+     "id":4,
+     "name": "Space Black",
+     "img": "color-4.jpg"
+    }
+]
