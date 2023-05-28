@@ -3,7 +3,7 @@ import { id } from "../../global.js"
 import { Shop } from "./model.js"
 
 const styleCart = id("amount").style
-const urlData = '/components/cart.json'
+const urlData = '/iphone/components/cart.json'
 
 //Toggle cart phones
 id("cart").addEventListener("click", ()=> {

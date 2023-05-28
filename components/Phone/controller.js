@@ -5,7 +5,7 @@ import { wrapOperation } from '../../local-server/middlewares.js';
 import view from './view.js';
 import {data} from '../../local-server/data.js'
 
-const urlData = '/components/cart.json'
+const urlData = '/iphone/components/cart.json'
 const phoneList = ["Silver", "Deep Purple", "Gold", "Space Black"]
 
 const addToCart = async () => {
