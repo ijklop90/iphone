@@ -7,9 +7,11 @@ window.onload = function() {
 }
 const btn = document.querySelector(".menu-button")
 const nav = document.querySelector(".nav")
+const wrap = document.querySelector(".wrap")
 
 export default btn.addEventListener("click", ()=>{
     nav.classList.toggle("menu-open")
+    wrap.classList.toggle("none")
 })
 
 if(document.getElementById('count-ico').innerText == "0") {
