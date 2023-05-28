@@ -287,6 +287,7 @@ body{
     background-color: #71c2cc;
     top:0;
     z-index: 100;
+    text-align: center;
 }
 
 .hide-preload {
@@ -304,9 +305,12 @@ html {
 #loader {
     width: 100px;
     height: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    top: 45%;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 170px;
+    text-align: center;
 }
 
 @keyframes hidePreloader {
